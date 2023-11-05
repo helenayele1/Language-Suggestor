@@ -16,6 +16,8 @@ The "Programming Language Suggestor" is a web application that helps users find 
 
 This project is a simple example of a decision-making application and demonstrates how JavaScript can be used to process user input and generate a result.
 
+See demo here: https://helenayele1.github.io/Language-Suggestor/
+
 ## Setup/Installation Requirements
 
 * Clone the project from GitHub.
