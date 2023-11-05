@@ -13,6 +13,16 @@ form.onsubmit = function(event) {
     let snackType= document.getElementById('snack').value;
     let energyLevel= document.getElementById("energy").value;
  
+    if (vegetarian === 'yes' && educationLevel === 'high-school' && snackType === 'chips' && energyLevel === 'day') {
+        programmingLanguage = 'Ruby';
+      } else if (vegetarian === 'yes' && educationLevel === 'undergrad' && snackType === 'chips' && energyLevel === 'day') {
+        programmingLanguage = 'C#';
+      } else if (vegetarian === 'no' && educationLevel === 'masters' && snackType === 'cookies' && energyLevel === 'night') {
+        programmingLanguage = 'Javascript';
+      } else {
+        programmingLanguage = 'Unknown';
+      }
+    
 
 }
 
