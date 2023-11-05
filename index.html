@@ -2,30 +2,48 @@
 <html>
 <head>
   <link rel="stylesheet" href="css/styles.css" type="text/css">
-  <script src="scripts.js"></script>
+  <script src="js/scripts.js"></script>
 </head>
-
 <body>
-
   <h1>Programming Language Suggestor</h1>
 
   <form>
     <label for="age">What is your age?</label>
     <input id="age" type="number">
-    <button type="submit">Submit!</button>
-    <label for ="education">What is your highest education level?</label>
+    <label for="education">What is your highest education level?</label>
     <select id="education" required>
-        <option value="select">select</option>
-        <option value="high-school">high-school</option>
-        <option value ="undergrad">undergrad</option>
-        <option value ="masters">masters</option>
-    </select>
-     
-    <label for="vegetarian"> Are you a vegetarian?</label>
-    <select id="skyDiver" required>
-        <option value="Select">Select</option>
-        <option value="yes">Yes</option>
-        <option value="no">Never</option>
+      <option value="select">Select</option>
+      <option value="high-school">High School</option>
+      <option value="undergrad">Undergraduate</option>
+      <option value="masters">Masters</option>
     </select>
 
+    <label for="vegetarian">Are you a vegetarian?</label>
+    <select id="vegetarian" required>
+      <option value="select">Select</option>
+      <option value="yes">Yes</option>
+      <option value="no">No</option>
+    </select>
+
+    <label for="snack">Which snack do you prefer?</label>
+    <select id="snack" required>
+      <option value="select">Select</option>
+      <option value="chips">Chips</option>
+      <option value="cookies">Cookies</option>
+    </select>
+
+    <label for="energy">Are you more energetic in the day or night?</label>
+    <select id="energy" required>
+      <option value="select">Select</option>
+      <option value="day">Day</option>
+      <option value="night">Night</option>
+    </select>
+
+    <button type="submit">Submit</button>
   </form>
+
+  <div id="result">
+    <h2>Results:</h2>
+  </div>
+</body>
+</html>
